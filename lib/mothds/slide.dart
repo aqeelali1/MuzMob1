@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 // ignore: camel_case_types, must_be_immutable
@@ -30,6 +29,7 @@ class slide extends StatelessWidget {
         ),
         Text(
           title,
+          textAlign: TextAlign.center,
           style: const TextStyle(
             color: Colors.white,
             fontSize: 20,
